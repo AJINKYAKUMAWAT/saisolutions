@@ -2,6 +2,7 @@
 import DesignCards from "@/components/DesignCards";
 import React, { ReactNode } from "react";
 import { TypeAnimation } from "react-type-animation";
+import '@/css/Layout.css'
 
 interface Children{
   children:ReactNode
