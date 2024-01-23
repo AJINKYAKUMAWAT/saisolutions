@@ -1,10 +1,7 @@
 import React, { ReactNode } from 'react'
 
-interface Children{
-  children:ReactNode
-}
 
-const Profile:React.FC<Children> = () => {
+const Profile= () => {
   return (
     <div>
       <h2 style={{color:'#fff'}}>Home</h2>
