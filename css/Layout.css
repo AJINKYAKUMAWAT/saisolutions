@@ -1,0 +1,92 @@
+/* styles/globals.css or your CSS file */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Make the background transparent when not scrolled */
+  .navbar:not(.scrolled) {
+    background-color: blue;
+  }
+  
+  /* Change the background to white when scrolled */
+  .navbar.scrolled {
+    background-color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .background{
+    /* background-image: url(../public/assets/img/carousel-1.jpg); */
+    background-color: #161616;
+    height: 100vh;
+    /* height: 225px; */
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .d-title{
+    font-size: 4rem;
+    color: #fff;
+    padding-left: 12%;
+  }
+  
+  .title{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .color{
+    color: #dc3545;
+  }
+
+  .d-title-2{
+    font-size: 2rem;
+    color: #fff;
+    padding-left: 12%;
+  }
+
+  .margin{
+    margin-top: -15px;
+  }
+
+  .align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(255 255 255 / 39%);
+    padding-top: 30px;
+  }
+
+  .div-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-2.css-a0f6xe-MuiGrid-root {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.1);
+    border: none;
+    max-height: 265px;
+  }
