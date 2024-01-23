@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Layout from "@/components/layout";
 import Header from '@/components/layout/Header'
 import '@/css/Layout.css'
+import Dashboard from "@/components/layout/Dashboard";
 
 export const metadata: Metadata = {
   title: "sai solution",
@@ -18,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className='background'>
         <Header/>
-        {children}
+        <Dashboard>{children}</Dashboard>
       </body>
     </html>
   );
