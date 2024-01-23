@@ -3,6 +3,7 @@ import DesignCards from "@/components/DesignCards";
 import React, { ReactNode } from "react";
 import { TypeAnimation } from "react-type-animation";
 import '@/css/Layout.css'
+import IndustriesCards from "../IndustriesCards";
 
 interface Children{
   children:ReactNode
@@ -128,6 +129,7 @@ const Dashboard:React.FC<Children> = () => {
         </p>
       </div>
       <DesignCards/>
+        <IndustriesCards/>
     </div>
   );
 };
