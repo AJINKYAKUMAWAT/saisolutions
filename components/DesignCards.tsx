@@ -32,7 +32,7 @@ const DesignCards = () => {
           className="div-center"
           sx={{ marginBottom: "30px" }}
         >
-          <Grid sx={{ border: "1px solid black" }} style={{padding:'26px'}} item md={2}>
+          <Grid sx={{ border: "1px solid black" }} className="cards" style={{padding:'26px'}} item md={2}>
             <h3 style={{ fontWeight: "700" }}>Custom Software Development</h3>
             <p style={{ fontSize: "0.7rem" }}>
               Transform your unique ideas into tailored software solutions,
@@ -43,7 +43,7 @@ const DesignCards = () => {
               Explore more <ArrowRightAltIcon />
             </Button>
           </Grid>
-          <Grid sx={{ border: "1px solid black" }} style={{padding:'28px'}} item md={2}>
+          <Grid sx={{ border: "1px solid black" }} className="cards" style={{padding:'28px'}} item md={2}>
             <h3 style={{ fontWeight: "700" }}>UI/UX <br /> Services</h3>
             <p style={{ fontSize: "0.7rem" }}>
               Our UI/UX design experts meticulously craft seamless, user-centric
@@ -54,7 +54,7 @@ const DesignCards = () => {
               Explore more <ArrowRightAltIcon />
             </Button>
           </Grid>
-          <Grid sx={{ border: "1px solid black" }} item md={2}>
+          <Grid sx={{ border: "1px solid black" }} className="cards" item md={2}>
             <h3 style={{ fontWeight: "700" }}>Application Development</h3>
             <p style={{ fontSize: "0.7rem" }}>
               From mobile to desktop, experience applications that streamline
@@ -65,7 +65,7 @@ const DesignCards = () => {
               Explore more <ArrowRightAltIcon />
             </Button>
           </Grid>
-          <Grid sx={{ border: "1px solid black" }} item md={2}>
+          <Grid sx={{ border: "1px solid black" }} className="cards" item md={2}>
             <h3 style={{ fontWeight: "700" }}>Web <br /> Development</h3>
             <p style={{ fontSize: "0.7rem" }}>
               Experience cutting-edge web solutions, including specialized web

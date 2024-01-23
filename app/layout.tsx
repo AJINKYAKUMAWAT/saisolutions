@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import Layout from "@/components/layout";
 import Header from '@/components/layout/Header'
-import './globals.css'
+import '@/css/Layout.css'
 import Dashboard from "@/components/layout/Dashboard";
 
 export const metadata: Metadata = {
