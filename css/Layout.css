@@ -102,9 +102,9 @@
   }
 
   .explore-css{
-    color: #5cb85c;
-    font-size: 0.8rem;
-    font-weight: 600;
+    color: #5cb85c !important;
+    font-size: 0.8rem !important;
+    font-weight: 600 !important;
   }
 
   figure {
