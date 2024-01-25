@@ -114,6 +114,7 @@ const Navbar: React.FC = () => {
           sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, fontSize:'2.25rem',padding:'5px' }}
         >
           CodeCrafters Hub
+
         </Typography>
         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
           {navItems.map((item) => (
