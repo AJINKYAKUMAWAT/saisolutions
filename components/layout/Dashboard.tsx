@@ -2,14 +2,15 @@
 import DesignCards from "@/components/DesignCards";
 import React, { ReactNode } from "react";
 import { TypeAnimation } from "react-type-animation";
-import '@/css/Layout.css'
+import "@/css/Layout.css";
 import IndustriesCards from "../IndustriesCards";
+import DegitalMarketingCards from "./DigitalMarketingCard";
 
-interface Children{
-  children:ReactNode
+interface Children {
+  children: ReactNode;
 }
 
-const Dashboard:React.FC<Children> = () => {
+const Dashboard: React.FC<Children> = () => {
   return (
     <div style={{ marginTop: "30vh" }}>
       <h1 className="title">
@@ -60,16 +61,24 @@ const Dashboard:React.FC<Children> = () => {
         repeat={Infinity}
       />
       <div style={{ padding: "2.6rem" }}>
-        <p className="align"
-        >
-          <span style={{marginRight:'10px', color:'#fff',fontSize:'1.3rem',fontWeight:'600'}}>Trusted by</span>
+        <p className="align">
+          <span
+            style={{
+              marginRight: "10px",
+              color: "#fff",
+              fontSize: "1.3rem",
+              fontWeight: "600",
+            }}
+          >
+            Trusted by
+          </span>
           <svg
             version="1.1"
             id="Layer_1"
             x="0px"
             y="0px"
             viewBox="0 0 2995 128"
-            style={{ fill: "#fff", width: "80%" , marginLeft:'120px'}}
+            style={{ fill: "#fff", width: "80%", marginLeft: "120px" }}
             className="injected-svg"
             data-src="/_next/static/media/trusted-logos.dd072ccc.svg"
             role="img"
@@ -128,8 +137,9 @@ const Dashboard:React.FC<Children> = () => {
           </svg>
         </p>
       </div>
-      <DesignCards/>
-        <IndustriesCards/>
+      <DesignCards />
+      <IndustriesCards />
+      <DegitalMarketingCards/>
     </div>
   );
 };

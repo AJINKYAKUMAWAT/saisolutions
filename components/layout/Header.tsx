@@ -16,6 +16,12 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/navigation';
+import {Single_Day} from 'next/font/google';
+
+export const Google_Font = Single_Day({
+  weight:'400',
+  display:'swap'
+})
 
 const drawerWidth = 240;
 
@@ -68,7 +74,7 @@ const Navbar: React.FC = () => {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography className={Google_Font.className} variant="h6" sx={{ my: 2 }}>
         MUI
       </Typography>
       <Divider />
@@ -102,11 +108,12 @@ const Navbar: React.FC = () => {
           <MenuIcon />
         </IconButton>
         <Typography
+        className={Google_Font.className}
           variant="h6"
           component="div"
           sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, fontSize:'2.25rem',padding:'5px' }}
         >
-          MUI
+          CodeCrafters Hub
         </Typography>
         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
           {navItems.map((item) => (
