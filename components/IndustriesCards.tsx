@@ -1,3 +1,4 @@
+'use client'
 import { Grid } from "@mui/material";
 import React from "react";
 import medical from "@/public/assets/img/medical.jpg";

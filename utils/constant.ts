@@ -105,3 +105,31 @@ export const DesignCardsEnum = [
         description:'Experience cutting-edge web solutions, including specialized web apps, stunning websites, and responsive designs, providing seamless functionality and capabilities to meet diverse needs.'
     },
 ]
+
+export const AskQuestionEnum = [
+    {
+        id:1,
+        question:'Do you offer custom software development solutions?',
+        answer:'Of course! Custom software solutions are what we live and breathe. Our team is dedicated to crafting solutions that perfectly fit each of our clients’ specific needs, ensuring optimal functionality and alignment with business goals. '
+    },
+    {
+        id:2,
+        question:'Can you help with both front-end and back-end development?',
+        answer:'Indeed, we can. We have experts in both back-end and front-end development, allowing us to deliver a holistic approach that ensures a smooth, efficient, and integrated software solution.'
+    },
+    {
+        id:3,
+        question:'Can you help with both front-end and back-end development?',
+        answer:'Indeed, we can. We have experts in both back-end and front-end development, allowing us to deliver a holistic approach that ensures a smooth, efficient, and integrated software solution.'
+    },
+    {
+        id:4,
+        question:'Can you integrate third-party APIs or services into the software?',
+        answer:'Certainly. Integration of third-party APIs or services is something we handle routinely. Our team is adept at seamlessly incorporating various services to enhance the functionality and efficiency of your software.'
+    },
+    {
+        id:5,
+        question:'Do you offer any post-launch marketing or promotion services?',
+        answer:'Yes, we do. Beyond software development, we have a dedicated marketing team that is ready to assist you with post-launch marketing and promotion. Our specialists can help strategize and implement effective marketing campaigns to boost your product’s visibility and reach to your target audience.'
+    },
+]

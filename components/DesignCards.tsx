@@ -1,3 +1,4 @@
+'use client'
 import { Button, Grid } from "@mui/material";
 import React from "react";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
